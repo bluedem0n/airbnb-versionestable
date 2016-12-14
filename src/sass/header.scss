@@ -1,0 +1,22 @@
+@import "variables";
+@import "mixins";
+nav {
+	background-color: $color-white;
+	box-shadow: none;
+	position: fixed;
+	z-index: 100;
+	.logo {
+		padding: 2vh;
+		width: 8vh;
+		height: 8vh;
+	}
+}
+
+// hero image
+.nav-wrapper a {
+	color: black;
+}
+
+header {
+	padding-bottom: 4em;
+}
